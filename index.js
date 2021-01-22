@@ -16,10 +16,7 @@ const config = {
     database:"test",
     user:"sa",
     password:"z@GH7ytQ",
-    "options":{
-        "encrypt":false,
-        "enableArithAbort":true
-    }
+
 
 }
 mssql.connect(config,function (err) {
